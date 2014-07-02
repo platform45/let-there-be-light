@@ -64,6 +64,7 @@ function install_ruby {
 }
 
 install_brew rbenv
+
 install_brew ruby-build
 
 if [[ -z `grep '\$(rbenv init' ~/.zshrc` ]]; then
@@ -85,32 +86,18 @@ fi
 #harcoded
 install_ruby "2.1.2"
 
-install_brew axel # Download accelerator - used in this script
-
-install_brew ack
-install_brew qt
 install_brew git
 
-# Databases
-install_brew mysql
-install_brew redis
-install_brew memcached
-install_brew sqlite
-
-install_brew node
-install_brew imagemagick
-
-install_brew wget
-
-#Brew cask
-install_brew caskroom/cask/brew-cask
+install_brew caskroom/cask/brew-cask # test - make sure works with update
 
 install_brew cask heroku-toolbelt
-install_brew cask sublime
 
-# hardcoded ruby version
-rbenv global 2.1.2
+install_brew cask sublime-text
+
+rbenv global 2.1.2 # don't hardcode
+
 install_gem bundler
+
 install_gem rbenv-autohash
 
 
