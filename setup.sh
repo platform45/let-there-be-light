@@ -1,23 +1,24 @@
 #!/bin/sh
 
-echo "Checking GCC..."
+echo "Checking if command line tools are installed..."
 
 # xcode system
 if [[ -z `which gcc` || -z `gcc -v 2>&1 | grep LLVM` ]]; then
   echo "Installing OSX Command Line tools"
   xcode-system --install
 else
-  echo "GCC is in good order :)"
+  echo "...Command Line Tools good to go :)"
 fi
 
 # Install oh-my-zsh if zsh is not the current shell
 if [[ $SHELL != '/bin/zsh' ]]; then
-  echo 'Installing oh-my-zsh'
+  echo 'Installing oh-my-zsh...'
   curl -L https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh | sh
 fi
 
 # Install Homebrew
 if [[ -z `which brew` || "`which brew`" == "brew not found" ]]; then
+  echo "Installing homebew"
   ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
   echo '# HOMEBREW
 export PATH=/usr/local/bin:/usr/local/sbin:$PATH' >> ~/.zshrc
