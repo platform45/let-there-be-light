@@ -5,6 +5,7 @@ sudo echo "Running as administrator" # Prompts for sudo up front
 
 echo "Checking GCC..."
 
+# xcode system
 if [[ -z `which gcc` || -z `gcc -v 2>&1 | grep LLVM` ]]; then
   echo "Installing OSX Command Line tools"
   xcode-system --install
@@ -19,7 +20,7 @@ if [[ $SHELL != '/bin/zsh' ]]; then
 fi
 
 if [[ -z `which brew` || "`which brew`" == "brew not found" ]]; then
-  curl -fsSkL raw.github.com/mxcl/homebrew/go | ruby
+  ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
   echo '# HOMEBREW
 export PATH=/usr/local/bin:/usr/local/sbin:$PATH' >> ~/.zshrc
 else
