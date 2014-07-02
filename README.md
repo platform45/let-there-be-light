@@ -6,14 +6,25 @@ Simple script to setup a new development environment on OSX
 Installs: 
  - [xcode command line tools](https://developer.apple.com/xcode/downloads/)
  - [ZSH shell](http://ohmyz.sh)
- - [Homebrew](http://brew.sh/)
- - [Homebrew Cask](http://caskroom.io/)
- - [Heroku Toolbelt](https://toolbelt.heroku.com/)
- - [rbenv](https://github.com/sstephenson/rbenv)
- - [Sublime Text Editor](http://www.sublimetext.com/)
- - [Bundler](http://bundler.io/)
+   ![OhMyZsh](http://imgur.com/1C0HBho.png)
 
-  ![Bundler](http://imgur.com/VKs0eUr.png)
+ - [Homebrew](http://brew.sh/)
+   ![Homebrew](http://imgur.com/5eDVCBm.png) 
+ 
+ - [Homebrew Cask](http://caskroom.io/)
+   ![Homebrew Cask](http://imgur.com/HmdSJiv.png) 
+ 
+ - [Heroku Toolbelt](https://toolbelt.heroku.com/)
+   ![Heroku Toolbelt](http://imgur.com/9ckVLdH.png) 
+ 
+ - [rbenv](http://rbenv.org)
+   ![RBENV](http://i.imgur.com/1ECyXFN.png)
+
+ - [Sublime Text Editor](http://www.sublimetext.com/)
+   ![Sublime](http://imgur.com/0EWCalY.png) 
+ 
+ - [Bundler](http://bundler.io/)
+   ![Bundler](http://imgur.com/VKs0eUr.png)
  
 The MIT License (MIT)
 
