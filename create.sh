@@ -101,9 +101,17 @@ install_brew imagemagick
 
 install_brew wget
 
+#Brew cask
+install_brew caskroom/cask/brew-cask
+
+install_brew cask heroku-toolbelt
+install_brew cask sublime
+
+ 
 rbenv global 1.9.3-p194
 install_gem bundler
 install_gem rbenv-autohash
+
 
 
 if [[ !(-e ~/.pow) ]]; then
