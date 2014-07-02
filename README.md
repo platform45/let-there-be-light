@@ -12,7 +12,8 @@ Installs:
  - [rbenv](https://github.com/sstephenson/rbenv)
  - [Sublime Text Editor](http://www.sublimetext.com/)
  - [Bundler](http://bundler.io/)
-  
+
+  ![Bundler](http://imgur.com/VKs0eUr.png)
  
 The MIT License (MIT)
 
