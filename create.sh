@@ -60,7 +60,7 @@ function install_ruby {
   local version=$1
 
   (rbenv versions | grep $version > /dev/null && echo "[rbenv] Already installed Ruby $version") ||
-  (echo "[rbenv] Installing Ruby 1.9.3-p194" && rbenv install $version)
+  (echo "[rbenv] Installing Ruby 2.1.2" && rbenv install $version)
 }
 
 install_brew rbenv
@@ -82,7 +82,8 @@ if [[ !(-e ~/.gemrc) ]]; then
 update:  --no-rdoc --no-ri' >> ~/.gemrc
 fi
 
-install_ruby "1.9.3-p194"
+#harcoded
+install_ruby "2.1.2"
 
 install_brew axel # Download accelerator - used in this script
 
@@ -107,18 +108,10 @@ install_brew caskroom/cask/brew-cask
 install_brew cask heroku-toolbelt
 install_brew cask sublime
 
- 
-rbenv global 1.9.3-p194
+# hardcoded ruby version
+rbenv global 2.1.2
 install_gem bundler
 install_gem rbenv-autohash
 
-
-
-if [[ !(-e ~/.pow) ]]; then
-  curl get.pow.cx | sh
-  echo 'export PATH="$HOME/.rbenv/shims:$HOME/.rbenv/bin:$PATH"' >> ~/.zshrc
-else
-  echo "Pow is installed.  Run 'curl get.pow.cx | sh' to ensure the latest version is installed."
-fi
 
 echo "All done!"
