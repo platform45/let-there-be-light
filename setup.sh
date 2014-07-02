@@ -1,8 +1,5 @@
 #!/bin/sh
 
-echo "Some of these commands need sudo privileges."
-sudo echo "Running as administrator" # Prompts for sudo up front
-
 echo "Checking GCC..."
 
 # xcode system
@@ -19,6 +16,7 @@ if [[ $SHELL != '/bin/zsh' ]]; then
   curl -L https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh | sh
 fi
 
+# Install Homebrew
 if [[ -z `which brew` || "`which brew`" == "brew not found" ]]; then
   ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
   echo '# HOMEBREW
