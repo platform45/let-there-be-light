@@ -9,6 +9,8 @@ Shell script to setup a new development environment on OS X
 curl -L https://github.com/platform45/let-there-be-light/raw/master/setup.sh | sh
 ```
 
+:candy: New to development? Check out our [getting started](https://github.com/platform45/guidebook) guides :candy:
+
 ### Installs
  
  - [ZSH shell](http://ohmyz.sh)
@@ -35,8 +37,6 @@ curl -L https://github.com/platform45/let-there-be-light/raw/master/setup.sh | s
  - [Bundler](http://bundler.io/)
    ![Bundler](http://imgur.com/VKs0eUr.png)
  
-
-:candy: New to development? Check out our [getting started](https://github.com/platform45/guidebook) guides.
 
 #### License 
 
