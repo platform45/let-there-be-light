@@ -1,7 +1,7 @@
 let-there-be-light
 ==================
 
-Shell script to setup a new development environment on OSX
+Shell script to setup a new development environment on OS X
 
 Installs: 
  - [xcode command line tools](https://developer.apple.com/xcode/downloads/)
