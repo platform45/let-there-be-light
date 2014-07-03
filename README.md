@@ -36,7 +36,7 @@ curl -L https://github.com/platform45/let-there-be-light/raw/master/setup.sh | s
    ![Bundler](http://imgur.com/VKs0eUr.png)
  
 
-:candy: New to development? Check out our [getting started](https://github.com/platform45/wiki) guides.
+:candy: New to development? Check out our [getting started](https://github.com/platform45/guidebook) guides.
 
 #### License 
 
