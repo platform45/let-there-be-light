@@ -10,12 +10,12 @@ curl -L https://github.com/platform45/let-there-be-light/raw/master/setup.sh | s
 ```
 
 ### Installs
-
- - [xcode command line tools](https://developer.apple.com/xcode/downloads/)
-   ![xcode command line tools](http://imgur.com/QwdA7qw.png)
  
  - [ZSH shell](http://ohmyz.sh)
    ![OhMyZsh](http://imgur.com/1C0HBho.png)
+
+ - [xcode command line tools](https://developer.apple.com/xcode/downloads/)
+   ![xcode command line tools](http://imgur.com/QwdA7qw.png)
 
  - [Homebrew](http://brew.sh/)
    ![Homebrew](http://imgur.com/5eDVCBm.png) 
