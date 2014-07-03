@@ -1,4 +1,4 @@
-let-there-be-light
+let there be light
 ==================
 
 Shell script to setup a new development environment on OS X
