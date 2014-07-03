@@ -38,6 +38,8 @@ curl -L https://github.com/platform45/let-there-be-light/raw/master/setup.sh | s
 
 New to development? Check out our [getting started](https://github.com/platform45/wiki) guides.
 
+#### License 
+
 The MIT License (MIT)
 
 Copyright (c) 2014 Platform45
