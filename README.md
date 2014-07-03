@@ -1,10 +1,12 @@
 let-there-be-light
 ==================
 
-Simple script to setup a new development environment on OSX
+Shell script to setup a new development environment on OSX
 
 Installs: 
  - [xcode command line tools](https://developer.apple.com/xcode/downloads/)
+   ![xcode command line tools](http://imgur.com/QwdA7qw.png)
+ 
  - [ZSH shell](http://ohmyz.sh)
    ![OhMyZsh](http://imgur.com/1C0HBho.png)
 
@@ -26,6 +28,9 @@ Installs:
  - [Bundler](http://bundler.io/)
    ![Bundler](http://imgur.com/VKs0eUr.png)
  
+
+New to development? Check out our [getting started](https://github.com/platform45/wiki) guides.
+
 The MIT License (MIT)
 
 Copyright (c) 2014 Platform45
