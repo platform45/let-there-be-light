@@ -9,6 +9,9 @@ Shell script to setup a new development environment on OS X
 curl -L https://github.com/platform45/let-there-be-light/raw/master/setup.sh | sh
 ```
 
+Once you're done be sure to see our [![guide book](http://img.shields.io/badge/Guidebook-view-green.svg)](https://github.com/platform45/guidebook)
+
+
 ### Installs
  
  - [ZSH shell](http://ohmyz.sh)
