@@ -6,10 +6,11 @@ Shell script to setup a new development environment on OS X
 ### Usage
 
 ```
-curl -L https://github.com/platform45/let-there-be-light/raw/master/setuo.sh | sh
+curl -L https://github.com/platform45/let-there-be-light/raw/master/setup.sh | sh
 ```
 
-Installs: 
+### Installs the following
+
  - [xcode command line tools](https://developer.apple.com/xcode/downloads/)
    ![xcode command line tools](http://imgur.com/QwdA7qw.png)
  
