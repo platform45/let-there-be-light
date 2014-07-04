@@ -123,4 +123,4 @@ echo "\033[0;32m"'                                                              
 echo "\033[0;32m"'                                                                                 www.platform45.com '"\033[0m"
 echo "\nAll done!"
 
-exec $SHELL
+exec /bin/zsh
