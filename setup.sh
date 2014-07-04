@@ -94,7 +94,7 @@ fi
 
 if [[ !(-e ~/.gemrc) ]]; then
   echo 'install: --no-rdoc --no-ri
-  update:  --no-rdoc --no-ri' >> ~/.gemrc
+update:  --no-rdoc --no-ri' >> ~/.gemrc
 fi
 
 install_ruby "2.1.2" #bad :hardcoded
