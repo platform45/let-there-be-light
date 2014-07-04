@@ -1,4 +1,4 @@
-![let-there-be-light](http://imgur.com/GSiexLe.png)
+![let-there-be-light](http://imgur.com/xvEPxQr.png)
 Shell script to setup a new development environment on OS X
 
 ### Usage
