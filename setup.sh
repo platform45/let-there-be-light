@@ -22,7 +22,7 @@ if [[ -z `which brew` || "`which brew`" == "brew not found" ]]; then
   echo "Installing homebew"
   ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
   echo '# HOMEBREW
-  export PATH=/usr/local/bin:/usr/local/sbin:$PATH' >> ~/.zshrc
+export PATH=/usr/local/bin:/usr/local/sbin:$PATH' >> ~/.zshrc
 else
   echo "Updating homebrew sources"
   brew update
@@ -75,7 +75,6 @@ export PATH="$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init -)"' >> ~/.zshrc
 
   export PATH="$HOME/.rbenv/bin:$PATH"
-  eval "$(rbenv init -)"
 fi
 
 if [[ !(-e ~/.gemrc) ]]; then
@@ -83,8 +82,7 @@ if [[ !(-e ~/.gemrc) ]]; then
   update:  --no-rdoc --no-ri' >> ~/.gemrc
 fi
 
-#harcoded
-install_ruby "2.1.2"
+install_ruby "2.1.2" #bad :hardcoded
 
 install_brew git
 
@@ -94,9 +92,9 @@ install_brew cask heroku-toolbelt
 
 install_brew cask sublime-text
 
-rbenv global 2.1.2 # don't hardcode
+rbenv global 2.1.2 #bad hardcoded
 
-eval "$(rbenv init -)" # 
+eval "$(rbenv init -)" # otherwise gonna ask us fail on permission error
 install_gem bundler
 
 install_gem rbenv-autohash
