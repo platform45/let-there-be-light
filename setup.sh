@@ -55,12 +55,12 @@ function install_brew_cask {
   local installed=`brew cask list | grep $package`
 
   if [[ -z $installed ]]; then
-    echo "[brew] Installing $package"
+    echo "[brew-cask] Installing $package"
     brew cask install $package
   fi
 
   if [[ $installed ]]; then
-    echo "[brew] $package is already installed"
+    echo "[brew-cask] $package is already installed"
   fi
 }
 
