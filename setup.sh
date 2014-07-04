@@ -49,6 +49,21 @@ function install_brew {
   fi
 }
 
+function install_brew_cask {
+  local package=$1
+
+  local installed=`brew cask list | grep $package`
+
+  if [[ -z $installed ]]; then
+    echo "[brew] Installing $package"
+    brew cask install $package
+  fi
+
+  if [[ $installed ]]; then
+    echo "[brew] $package is already installed"
+  fi
+}
+
 function install_gem {
   local gem=$1
 
@@ -86,11 +101,11 @@ install_ruby "2.1.2" #bad :hardcoded
 
 install_brew git
 
+install_brew heroku-toolbelt
+
 install_brew caskroom/cask/brew-cask # test - make sure works with update
 
-install_brew cask heroku-toolbelt
-
-install_brew cask sublime-text
+install_brew_cask sublime-text
 
 rbenv global 2.1.2 #bad hardcoded
 
