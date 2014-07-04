@@ -23,8 +23,6 @@ if [[ -z `which brew` || "`which brew`" == "brew not found" ]]; then
   ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
   echo '# HOMEBREW
   export PATH=/usr/local/bin:/usr/local/sbin:$PATH' >> ~/.zshrc
-  echo "Updated paths"
-  export PATH=/usr/local/bin:/usr/local/sbin:$PATH
 else
   echo "Updating homebrew sources"
   brew update
@@ -98,6 +96,7 @@ install_brew cask sublime-text
 
 rbenv global 2.1.2 # don't hardcode
 
+eval "$(rbenv init -)" # 
 install_gem bundler
 
 install_gem rbenv-autohash
