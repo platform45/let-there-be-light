@@ -4,7 +4,7 @@ Shell script to setup a new development environment on OS X
 ### Usage
 
 ```bash
-curl -L https://github.com/platform45/let-there-be-light/raw/master/setup.sh | sh
+bash (curl -L https://github.com/platform45/let-there-be-light/raw/master/setup.sh)
 ```
 
 :candy: New to development? Check out our [getting started](https://github.com/platform45/guidebook) guides :candy:
