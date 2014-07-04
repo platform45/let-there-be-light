@@ -22,7 +22,9 @@ if [[ -z `which brew` || "`which brew`" == "brew not found" ]]; then
   echo "Installing homebew"
   ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
   echo '# HOMEBREW
-export PATH=/usr/local/bin:/usr/local/sbin:$PATH' >> ~/.zshrc
+  export PATH=/usr/local/bin:/usr/local/sbin:$PATH' >> ~/.zshrc
+  echo "Updated paths"
+  export PATH=/usr/local/bin:/usr/local/sbin:$PATH
 else
   echo "Updating homebrew sources"
   brew update
@@ -80,7 +82,7 @@ fi
 
 if [[ !(-e ~/.gemrc) ]]; then
   echo 'install: --no-rdoc --no-ri
-update:  --no-rdoc --no-ri' >> ~/.gemrc
+  update:  --no-rdoc --no-ri' >> ~/.gemrc
 fi
 
 #harcoded
