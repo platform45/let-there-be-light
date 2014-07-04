@@ -6,7 +6,7 @@ echo "Checking if command line tools are installed..."
 if [[ -z `which gcc` || -z `gcc -v 2>&1 | grep LLVM` ]]; then
   echo "Installing OSX Command Line tools"
   xcode-select --install
-  read -p " ####--  Follow the dialoge and Press [Enter] to once complete ---####"
+  read -p " ####--  Follow the dialoge and hit [Enter] to once installed ---####"
 else
   echo "...Command Line Tools good to go :)"
 fi
