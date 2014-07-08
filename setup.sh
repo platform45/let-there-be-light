@@ -72,10 +72,10 @@ function install_gem {
 }
 
 function install_ruby {
-  local version=$1
+  local version=`ruby-build --definitions | grep '^\(\d\.\d\.\d\)\(-p\d*\)\{0,1\}$' | tail -1`
 
   (rbenv versions | grep $version > /dev/null && echo "[rbenv] Already installed Ruby $version") ||
-  (echo "[rbenv] Installing Ruby 2.1.2" && rbenv install $version)
+  (echo "[rbenv] Installing Ruby $version" && rbenv install $version)
 }
 
 install_brew rbenv
@@ -97,7 +97,7 @@ if [[ !(-e ~/.gemrc) ]]; then
 update:  --no-rdoc --no-ri' >> ~/.gemrc
 fi
 
-install_ruby "2.1.2" #bad :hardcoded
+install_ruby
 
 install_brew git
 
