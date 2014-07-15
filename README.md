@@ -7,8 +7,6 @@ Shell script to setup a new development environment on OS X
 bash <(curl -L https://github.com/platform45/let-there-be-light/raw/master/setup.sh)
 ```
 
-:candy: New to development? Check out our [getting started](https://github.com/platform45/guidebook) guides :candy:
-
 ### Video overview of the tools installed
 
 [![Dev environment setup](http://img.youtube.com/vi/T8DS3bZL5LM/0.jpg)](https://www.youtube.com/watch?v=T8DS3bZL5LM)
