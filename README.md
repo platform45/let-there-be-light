@@ -1,7 +1,8 @@
 ![let-there-be-light](http://imgur.com/xvEPxQr.png)
 Shell script to setup a new development environment on OS X
 
-### Usage
+Usage
+=================
 
 ```bash
 bash <(curl -L https://github.com/platform45/let-there-be-light/raw/master/setup.sh)
@@ -11,7 +12,8 @@ bash <(curl -L https://github.com/platform45/let-there-be-light/raw/master/setup
 
 [![Dev environment setup](http://img.youtube.com/vi/T8DS3bZL5LM/0.jpg)](https://www.youtube.com/watch?v=T8DS3bZL5LM)
 
-### Installs
+Installs
+=================
  
  - [ZSH shell](http://ohmyz.sh)
    ![OhMyZsh](http://imgur.com/1C0HBho.png)
@@ -38,8 +40,9 @@ bash <(curl -L https://github.com/platform45/let-there-be-light/raw/master/setup
    ![Bundler](http://imgur.com/VKs0eUr.png)
  
 
-#### License 
+License 
+=================
 
 ![Platform45](http://imgur.com/3fORK1g.png)
 
-Let There Be Light is maintained and funded by [platform45 USA, inc](http://www.platform45.com/). Follow [@platform45](http://twitter.com/platform45) on Twitter.
+Let There Be Light is maintained and funded by [Platform45 USA, inc](http://www.platform45.com/). Follow [@platform45](http://twitter.com/platform45) on Twitter.
