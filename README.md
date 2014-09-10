@@ -45,4 +45,4 @@ License
 
 ![Platform45](http://imgur.com/3fORK1g.png)
 
-Let There Be Light is maintained and funded by [Platform45 USA, inc](http://www.platform45.com/). Follow [@platform45](http://twitter.com/platform45) on Twitter.
+Let There Be Light is maintained and funded by [Platform45](http://www.platform45.com/). Follow [@platform45](http://twitter.com/platform45) on Twitter.
